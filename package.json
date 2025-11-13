@@ -11,6 +11,7 @@
     "dev": "npm run dev --workspace Frontend",
     "dev:api": "npm run dev --workspace Backend",
     "build": "npm run build --workspace Frontend",
+    "build:frontend": "cd Frontend && npm install && npm run build",
     "lint": "npm run lint --workspace Frontend"
   },
   "engines": {
